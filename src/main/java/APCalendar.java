@@ -19,6 +19,7 @@ public class APCalendar
         leaps++;
       }
     }
+    return leaps;
   }
   
   /** Returns the value representing the day of the week for the first day of year,
